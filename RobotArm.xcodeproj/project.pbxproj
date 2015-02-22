@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BB303C51A24021800C9C927 /* Balloon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BB303C41A24021800C9C927 /* Balloon.cpp */; };
+		4BB303C81A2405DE00C9C927 /* Random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BB303C61A2405DE00C9C927 /* Random.cpp */; };
+		4BB6E1121A20188E00D2AF5F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BB6E1111A20188E00D2AF5F /* main.cpp */; };
+		4BBEBF9E1A20C26400A1C831 /* Pendulum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEBF9D1A20C26400A1C831 /* Pendulum.cpp */; };
+		4BBEBFA11A20C57400A1C831 /* CombinedShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEBF9F1A20C57400A1C831 /* CombinedShape.cpp */; };
+		4BBEBFA41A20CB9500A1C831 /* RobotBody.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEBFA21A20CB9500A1C831 /* RobotBody.cpp */; };
+		4BBEBFAA1A210F5900A1C831 /* EllipseShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEBFA91A210F5900A1C831 /* EllipseShape.cpp */; };
+		4BBEBFAD1A21131B00A1C831 /* UpperArm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEBFAB1A21131B00A1C831 /* UpperArm.cpp */; };
+		4BBEBFB31A213C6300A1C831 /* LowerArm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEBFB11A213C6300A1C831 /* LowerArm.cpp */; };
+		4BBEBFB61A21420C00A1C831 /* Fingers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEBFB41A21420C00A1C831 /* Fingers.cpp */; };
+		4BBEBFB91A214AFF00A1C831 /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4BBEBFB81A214AFF00A1C831 /* ResourcePath.mm */; };
+		4BBEBFBD1A21925C00A1C831 /* Courier New.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4BBEBFBC1A21925100A1C831 /* Courier New.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4BB303C31A24021800C9C927 /* Balloon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Balloon.h; sourceTree = "<group>"; };
+		4BB303C41A24021800C9C927 /* Balloon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Balloon.cpp; sourceTree = "<group>"; };
+		4BB303C61A2405DE00C9C927 /* Random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Random.cpp; sourceTree = "<group>"; };
+		4BB303C71A2405DE00C9C927 /* Random.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Random.hpp; sourceTree = "<group>"; };
+		4BB6E1091A20188E00D2AF5F /* RobotArm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RobotArm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BB6E10D1A20188E00D2AF5F /* RobotArm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RobotArm-Info.plist"; sourceTree = "<group>"; };
+		4BB6E1111A20188E00D2AF5F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4BB906911A224D3D00136D5B /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		4BBEBF9C1A20C26400A1C831 /* Pendulum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pendulum.h; sourceTree = "<group>"; };
+		4BBEBF9D1A20C26400A1C831 /* Pendulum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Pendulum.cpp; sourceTree = "<group>"; };
+		4BBEBF9F1A20C57400A1C831 /* CombinedShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CombinedShape.cpp; sourceTree = "<group>"; };
+		4BBEBFA01A20C57400A1C831 /* CombinedShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombinedShape.h; sourceTree = "<group>"; };
+		4BBEBFA21A20CB9500A1C831 /* RobotBody.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RobotBody.cpp; sourceTree = "<group>"; };
+		4BBEBFA31A20CB9500A1C831 /* RobotBody.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobotBody.h; sourceTree = "<group>"; };
+		4BBEBFA81A210F5900A1C831 /* EllipseShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EllipseShape.h; sourceTree = "<group>"; };
+		4BBEBFA91A210F5900A1C831 /* EllipseShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EllipseShape.cpp; sourceTree = "<group>"; };
+		4BBEBFAB1A21131B00A1C831 /* UpperArm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UpperArm.cpp; sourceTree = "<group>"; };
+		4BBEBFAC1A21131B00A1C831 /* UpperArm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpperArm.h; sourceTree = "<group>"; };
+		4BBEBFB11A213C6300A1C831 /* LowerArm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LowerArm.cpp; sourceTree = "<group>"; };
+		4BBEBFB21A213C6300A1C831 /* LowerArm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowerArm.h; sourceTree = "<group>"; };
+		4BBEBFB41A21420C00A1C831 /* Fingers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fingers.cpp; sourceTree = "<group>"; };
+		4BBEBFB51A21420C00A1C831 /* Fingers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fingers.h; sourceTree = "<group>"; };
+		4BBEBFB71A214AFF00A1C831 /* ResourcePath.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		4BBEBFB81A214AFF00A1C831 /* ResourcePath.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		4BBEBFBC1A21925100A1C831 /* Courier New.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Courier New.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BB6E1051A20188E00D2AF5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BB6E0FF1A20188E00D2AF5F = {
+			isa = PBXGroup;
+			children = (
+				4BB6E10B1A20188E00D2AF5F /* RobotArm */,
+				4BB6E10A1A20188E00D2AF5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BB6E10A1A20188E00D2AF5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BB6E1091A20188E00D2AF5F /* RobotArm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BB6E10B1A20188E00D2AF5F /* RobotArm */ = {
+			isa = PBXGroup;
+			children = (
+				4BBEBFB71A214AFF00A1C831 /* ResourcePath.hpp */,
+				4BBEBFB81A214AFF00A1C831 /* ResourcePath.mm */,
+				4BBEBF9C1A20C26400A1C831 /* Pendulum.h */,
+				4BBEBF9D1A20C26400A1C831 /* Pendulum.cpp */,
+				4BB6E1111A20188E00D2AF5F /* main.cpp */,
+				4BBEBF9F1A20C57400A1C831 /* CombinedShape.cpp */,
+				4BBEBFA01A20C57400A1C831 /* CombinedShape.h */,
+				4BBEBFA21A20CB9500A1C831 /* RobotBody.cpp */,
+				4BBEBFA31A20CB9500A1C831 /* RobotBody.h */,
+				4BB303C41A24021800C9C927 /* Balloon.cpp */,
+				4BB303C31A24021800C9C927 /* Balloon.h */,
+				4BBEBFA91A210F5900A1C831 /* EllipseShape.cpp */,
+				4BBEBFA81A210F5900A1C831 /* EllipseShape.h */,
+				4BB303C61A2405DE00C9C927 /* Random.cpp */,
+				4BB303C71A2405DE00C9C927 /* Random.hpp */,
+				4BBEBFAB1A21131B00A1C831 /* UpperArm.cpp */,
+				4BBEBFAC1A21131B00A1C831 /* UpperArm.h */,
+				4BBEBFB11A213C6300A1C831 /* LowerArm.cpp */,
+				4BBEBFB21A213C6300A1C831 /* LowerArm.h */,
+				4BBEBFB41A21420C00A1C831 /* Fingers.cpp */,
+				4BBEBFB51A21420C00A1C831 /* Fingers.h */,
+				4BB906911A224D3D00136D5B /* Config.h */,
+				4BB6E1131A20188E00D2AF5F /* Resources */,
+				4BB6E10C1A20188E00D2AF5F /* Supporting Files */,
+			);
+			path = RobotArm;
+			sourceTree = "<group>";
+		};
+		4BB6E10C1A20188E00D2AF5F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BB6E10D1A20188E00D2AF5F /* RobotArm-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BB6E1131A20188E00D2AF5F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4BBEBFBC1A21925100A1C831 /* Courier New.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BB6E1081A20188E00D2AF5F /* RobotArm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BB6E11E1A20188E00D2AF5F /* Build configuration list for PBXNativeTarget "RobotArm" */;
+			buildPhases = (
+				4BB6E1041A20188E00D2AF5F /* Sources */,
+				4BB6E1051A20188E00D2AF5F /* Frameworks */,
+				4BB6E1061A20188E00D2AF5F /* Resources */,
+				4BB6E1071A20188E00D2AF5F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RobotArm;
+			productName = RobotArm;
+			productReference = 4BB6E1091A20188E00D2AF5F /* RobotArm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BB6E1001A20188E00D2AF5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Yu Chen";
+				TargetAttributes = {
+					4BB6E1081A20188E00D2AF5F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = 4BB6E1031A20188E00D2AF5F /* Build configuration list for PBXProject "RobotArm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4BB6E0FF1A20188E00D2AF5F;
+			productRefGroup = 4BB6E10A1A20188E00D2AF5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BB6E1081A20188E00D2AF5F /* RobotArm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BB6E1061A20188E00D2AF5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBEBFBD1A21925C00A1C831 /* Courier New.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BB6E1071A20188E00D2AF5F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required sfml dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# Are we building a project that uses framework or dylibs ?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert : not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $1 is a path\n{\n    test $# -eq 1\n    assert $? \"force_remove() requires one parameter\"\n    rm -fr \"$1\"\n    assert $? \"couldn't remove $1\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app/Contents/Frameworks\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1.2.dylib\"\n        force_remove \"$dest/libsfml-$1-d.2.dylib\"\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            copy \"/Library/Frameworks/sfml-$1.framework\" \"$dest/sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            copy \"/usr/local/lib/libsfml-$1-d.2.dylib\" \"$dest/libsfml-$1-d.2.dylib\"\n        else\n            copy \"/usr/local/lib/libsfml-$1.2.dylib\" \"$dest/libsfml-$1.2.dylib\"\n        fi\n\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy sndfile framework too\n            copy \"/Library/Frameworks/sndfile.framework\" \"$dest/sndfile.framework\"\n        fi\n\n        if [ \"$1\" = \"graphics\" ]\n        then\n            # copy freetype framework too\n            copy \"/Library/Frameworks/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BB6E1041A20188E00D2AF5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BBEBFB31A213C6300A1C831 /* LowerArm.cpp in Sources */,
+				4BBEBFAA1A210F5900A1C831 /* EllipseShape.cpp in Sources */,
+				4BBEBFB61A21420C00A1C831 /* Fingers.cpp in Sources */,
+				4BBEBFA11A20C57400A1C831 /* CombinedShape.cpp in Sources */,
+				4BB6E1121A20188E00D2AF5F /* main.cpp in Sources */,
+				4BB303C51A24021800C9C927 /* Balloon.cpp in Sources */,
+				4BBEBFA41A20CB9500A1C831 /* RobotBody.cpp in Sources */,
+				4BB303C81A2405DE00C9C927 /* Random.cpp in Sources */,
+				4BBEBFB91A214AFF00A1C831 /* ResourcePath.mm in Sources */,
+				4BBEBF9E1A20C26400A1C831 /* Pendulum.cpp in Sources */,
+				4BBEBFAD1A21131B00A1C831 /* UpperArm.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4BB6E11C1A20188E00D2AF5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		4BB6E11D1A20188E00D2AF5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		4BB6E11F1A20188E00D2AF5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RobotArm/RobotArm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4BB6E1201A20188E00D2AF5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RobotArm/RobotArm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BB6E1031A20188E00D2AF5F /* Build configuration list for PBXProject "RobotArm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB6E11C1A20188E00D2AF5F /* Debug */,
+				4BB6E11D1A20188E00D2AF5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BB6E11E1A20188E00D2AF5F /* Build configuration list for PBXNativeTarget "RobotArm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BB6E11F1A20188E00D2AF5F /* Debug */,
+				4BB6E1201A20188E00D2AF5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BB6E1001A20188E00D2AF5F /* Project object */;
+}
